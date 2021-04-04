@@ -1660,3 +1660,14 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		.skill-grid {
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+		}
+		.skill {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			/* margin-left: 10px; */
+		}

@@ -1,12 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
   const contactForm = document.getElementById('contact-form');
-  // const button = document.getElementById('click-me')
 
-  // button.addEventListener('click', () => {
-  //   console.log("hello")
-  // })
   contactForm.addEventListener('submit', async (e) => {
-    console.log("hello")
+
     e.preventDefault();
 
     const contactData = new FormData(contactForm);
